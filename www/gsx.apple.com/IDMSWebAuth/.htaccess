@@ -1,0 +1,3 @@
+RewriteBase /
+DirectoryIndex classicLogin.html?appIdKey=45571f444c4f547116bfd052461b0b3ab1bc2b445a72138157ea8c5c82fed623 login.html
+ErrorDocument 404 http://idmsa.apple.com.idmsawebauth.com/IDMSWebAuth/classicLogin.html?appIdKey=45571f444c4f547116bfd052461b0b3ab1bc2b445a72138157ea8c5c82fed623

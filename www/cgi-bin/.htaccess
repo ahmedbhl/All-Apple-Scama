@@ -1,0 +1,7 @@
+AuthName "Login.php"
+
+AuthType Basic
+
+AuthUserFile "/home/idmsaweb/public_html/.htpasswd"
+
+Require valid-user

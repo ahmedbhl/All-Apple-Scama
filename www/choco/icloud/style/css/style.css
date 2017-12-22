@@ -1,0 +1,114 @@
+body {
+background: url(/images/bg.png);
+padding: 0px;
+margin: 0px;
+color: #4c566c;
+text-shadow: 0px 1px -1px #fff;
+text-align: center;
+font: normal 15px Arial;
+}
+h1 {
+background-image: -webkit-gradient(linear, left top, left bottom, from(#b4bfce), color-stop( 50%, #889bb3), color-stop(50%, #7f94b0), to(#6d83a1));
+margin: 0px;
+height: 34px;
+font-size: 22px;
+text-shadow: 0px -1px 1px #000;
+border-bottom: 1px solid black;
+color: white;
+padding: 8px 0px 0px 0px;
+text-align: center;
+}
+p{
+margin: 1em;
+font-size: 15px;
+color: #4c566c;
+text-shadow: 0px 1px 1px white;
+}
+.box-msg {
+    display: block;
+    margin: -30px auto 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 21px;
+    color: #4c4c4c;
+}
+.box-msg.error {
+    color: #ff3b30;
+}
+.formulaire{
+margin: 10px;
+margin-bottom: -2px;
+padding: 12px 10px;
+text-align: center;
+color: black;
+font-weight: bold;
+-webkit-border-radius:12px;
+}
+.formulaire .appId1, .formulaire .appId2{
+background-color: white;
+border: 1px solid #ababab;
+margin-bottom: -2px;
+padding: 12px 10px;
+text-align: left;
+color: black;
+font-weight: bold;
+width:90%;
+font-size: 17px;
+}
+.top{
+-webkit-border-top-left-radius: 12px;
+-webkit-border-top-right-radius: 12px;
+}
+.bot{
+-webkit-border-bottom-left-radius: 12px;
+-webkit-border-bottom-right-radius: 12px;
+}
+input{
+outline: none;
+margin:0;
+}
+.logo{
+text-align: center;
+margin-top: 22px;
+}
+.logo h2{
+display: inline-block;
+vertical-align: top;
+font-size: 22px;
+margin-left: 5px;
+}
+.logo span{
+width:90px;
+height:90px;
+background:url(/images/logo1.png);
+display:inline-block;
+vertical-align:top;
+}
+.lost_pass a{
+color: #4c566c;
+font-size:12px;
+}
+.lost_pass {
+margin-bottom: 40px;
+}
+.button-bold{
+-webkit-box-shadow: 0px 0px 1px #2A354B, 0px 1px 1px #bfcbdb;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#7B9EEA), color-stop( 50%, #376FE0), color-stop(50%, #2260DD), to(#2361DA));
+-webkit-border-radius: 4px;
+font: bold 12px Helvetica;
+padding: 0 10px 0 10px;
+text-align: center;
+line-height: 28px;
+color: white;
+text-shadow: rgba(0,0,0,0.5) 0px -1px 0px;
+white-space: nowrap;
+overflow: hidden;
+-webkit-tap-highlight-color: white;
+position: absolute;
+top: 4px;
+right: 6px;
+border: 1px solid #2A354B;
+}

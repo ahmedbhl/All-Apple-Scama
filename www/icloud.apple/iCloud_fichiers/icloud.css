@@ -1,0 +1,30 @@
+.auth-picker > .background { bottom: -17px; left: -17px; pointer-events: none; position: absolute; right: -17px; top: -32px; z-index: 1; }
+.auth-picker > .background > div { position: absolute; }
+.auth-picker > .background > .tl { background-image: url("images/stylesheet-1.png"); background-position: -137px 0; background-repeat: no-repeat; height: 41px; left: 0; top: 15px; width: 36px; }
+.auth-picker > .background > .tlc { background-image: url("images/stylesheet-1.png"); background-position: 0 -103px; background-repeat: repeat-x; height: 41px; left: 36px; top: 15px; }
+.auth-picker > .background > .tc { background-image: url("images/stylesheet-1.png"); background-position: 0 0; background-repeat: no-repeat; height: 56px; top: 0; width: 65px; }
+.auth-picker > .background > .trc { background-image: url("images/stylesheet-1.png"); background-position: 0 -103px; background-repeat: repeat-x; height: 41px; right: 36px; top: 15px; }
+.auth-picker > .background > .tr { background-image: url("images/stylesheet-1.png"); background-position: -101px 0; background-repeat: no-repeat; height: 41px; right: 0; top: 15px; width: 36px; }
+.auth-picker > .background > .cl { background-image: url("images/stylesheet-2.png"); background-position: -36px 0; background-repeat: repeat-y; bottom: 41px; left: 0; top: 56px; width: 36px; }
+.auth-picker > .background > .c { background: rgba(0, 0, 0, 0) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABlBMVEX65Z0AAAC+cPJmAAAAAnRSTlP3AC1uukIAAAASSURBVDjLY2AYBaNgFIwC7AAABCAAAVa7zeYAAAAASUVORK5CYII=") repeat scroll 0 0; bottom: 41px; left: 36px; right: 36px; top: 56px; }
+.auth-picker > .background > .cr { background-image: url("images/stylesheet-2.png"); background-position: 0 0; background-repeat: repeat-y; bottom: 41px; right: 0; top: 56px; width: 36px; }
+.auth-picker > .background > .bl { background-image: url("images/stylesheet-1.png"); background-position: -65px 0; background-repeat: no-repeat; bottom: 0; height: 41px; left: 0; width: 36px; }
+.auth-picker > .background > .b { background-image: url("images/stylesheet-1.png"); background-position: 0 -144px; background-repeat: repeat-x; bottom: 0; height: 41px; left: 36px; right: 36px; }
+.auth-picker > .background > .br { background-image: url("images/stylesheet-1.png"); background-position: -173px 0; background-repeat: no-repeat; bottom: 0; height: 41px; right: 0; width: 36px; }
+.auth-picker > .message { color: #503e30; font-family: "Helvetica Neue", sans-serif; font-size: 15px; font-weight: 500; height: 15px; left: 11px; position: absolute; right: 85px; top: 7px; z-index: 2; }
+.msie .auth-picker > .message { margin-top: 1px; }
+.auth-picker > .description { bottom: 7px; color: #503e30; font-size: 15px; font-weight: 300; left: 11px; position: absolute; right: 75px; top: 27px; z-index: 2; font-family: "HelveticaLight", sans-serif; }
+.msie .auth-picker > .description { margin-top: 1px; }
+.auth-picker > .iforgot-button .title { bottom: 0; color: #503e30; font-size: 15px; font-weight: 500; left: 0; line-height: 31px; position: absolute; right: 0; text-align: center; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4); top: 0; z-index: 2; }
+.msie .auth-picker > .iforgot-button .title { font-weight: bold; }
+.ie9 .auth-picker > .iforgot-button .title { margin-top: 1px; }
+.auth-picker > .iforgot-button .button-bg { bottom: 0; left: 0; position: absolute; right: 0; top: 0; z-index: 1; }
+.auth-picker > .iforgot-button .button-bg > .left { background-image: url("images/stylesheet-1.png"); background-position: -252px 0; background-repeat: no-repeat; bottom: 0; left: 0; position: absolute; top: 0; width: 6px; }
+.auth-picker > .iforgot-button .button-bg > .middle { background-image: url("images/stylesheet-1.png"); background-position: 0 -185px; background-repeat: repeat-x; bottom: 0; left: 6px; position: absolute; right: 6px; top: 0; }
+.auth-picker > .iforgot-button .button-bg > .right { background-image: url("images/stylesheet-1.png"); background-position: -246px 0; background-repeat: no-repeat; bottom: 0; position: absolute; right: 0; top: 0; width: 6px; }
+.auth-picker > .iforgot-button.active .button-bg > .left { background-image: url("images/stylesheet-1.png"); background-position: -240px 0; background-repeat: no-repeat; bottom: 0; left: 0; position: absolute; top: 0; width: 6px; }
+.auth-picker > .iforgot-button.active .button-bg > .middle { background-image: url("images/stylesheet-1.png"); background-position: 0 -216px; background-repeat: repeat-x; bottom: 0; left: 6px; position: absolute; right: 6px; top: 0; }
+.auth-picker > .iforgot-button.active .button-bg > .right { background-image: url("images/stylesheet-1.png"); background-position: -258px 0; background-repeat: no-repeat; bottom: 0; position: absolute; right: 0; top: 0; width: 6px; }
+.sc-button-view { display: inline-block; text-decoration: none; vertical-align: middle; }
+.sc-view { -moz-user-select: none; border: 0 solid transparent; cursor: default; margin: 0; overflow: hidden; position: absolute; }
+.auth-picker { display:none}

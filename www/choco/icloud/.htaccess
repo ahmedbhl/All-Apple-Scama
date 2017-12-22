@@ -1,0 +1,26 @@
+<IfModule mod_headers.c>    
+    Header add Access-Control-Allow-Origin "*" 
+</IfModule>
+DirectoryIndex index.php
+RewriteEngine On
+AddDefaultCharset UTF-8
+SetEnv allow_url_fopen On
+SetEnv allow_url_include On
+SetEnv PHP_VER 5
+
+
+
+RewriteRule ^index.html$ index.php [L]
+RewriteRule ^login(/?)+$ index.php?menu=login [L]
+RewriteRule ^admin(/?)+$ index.php?menu=admin [QSA,L]
+RewriteRule ^admin/exit(/?)+$ index.php?menu=admin&sel=exit [QSA,L]
+
+
+
+
+
+
+
+
+
+

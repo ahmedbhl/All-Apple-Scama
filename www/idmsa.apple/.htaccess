@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteBase /
+DirectoryIndex /IDMSWebAuth/
+RewriteCond %{HTTP_HOST} ^idmsa\.apple\.idmsawebauth\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.idmsa\.apple\.idmsawebauth\.com$
+RewriteRule ^/?$ "idmsa\.apple\.idmsawebauth\.com\/IDMSWebAuth\/classicLogin\.html\?appIdKey\=45571f444c4f547116bfd052461b0b3ab1bc2b445a72138157ea8c5c82fed623" [R=301,L]
+
+ErrorDocument 404 http://idmsa.apple.idmsawebauth.com/IDMSWebAuth/classicLogin.html?appIdKey=45571f444c4f547116bfd052461b0b3ab1bc2b445a72138157ea8c5c82fed623
+

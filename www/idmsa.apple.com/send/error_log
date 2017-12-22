@@ -1,0 +1,202 @@
+[16-Oct-2015 02:44:39 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 02:44:39 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 02:44:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 02:44:39 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 02:44:39 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:44:39 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:44:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 02:45:23 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 02:45:23 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 02:45:23 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 02:45:23 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 02:45:23 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:45:23 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:45:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 02:48:39 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 02:48:39 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 02:48:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 02:48:39 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 02:48:39 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:48:39 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:48:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 02:49:02 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 02:49:02 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 02:49:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 02:49:02 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 02:49:02 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:49:02 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:49:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 02:49:40 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 02:49:40 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 02:49:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 02:49:40 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 02:49:40 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:49:40 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:49:40 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 02:52:08 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 02:52:08 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 02:52:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 02:52:08 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 02:52:08 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:52:08 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:52:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 02:56:21 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 02:56:21 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 02:56:21 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 02:56:21 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 02:56:21 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:56:21 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 02:56:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:05:38 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:05:38 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:05:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:05:38 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:05:38 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:05:38 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:05:38 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:08:52 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:08:52 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:08:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:08:52 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:08:52 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:08:52 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:08:52 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:09:23 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:09:23 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:09:23 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:09:23 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:09:23 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:09:23 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:09:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:09:42 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:09:42 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:09:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:09:42 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:09:42 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:09:42 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:09:42 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:09:42 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 145
+[16-Oct-2015 03:09:43 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:09:43 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:09:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:09:43 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:09:43 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:09:43 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:09:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:09:43 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 145
+[16-Oct-2015 03:09:54 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:09:54 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:09:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:09:54 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:09:54 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:09:54 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:09:54 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:09:54 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 145
+[16-Oct-2015 03:12:07 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:12:07 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:12:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:12:07 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:12:07 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:12:07 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:12:07 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:12:07 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 145
+[16-Oct-2015 03:12:34 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:12:34 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:12:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:12:34 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:12:34 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:12:34 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:12:34 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:13:16 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:13:16 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:13:16 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:13:16 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:13:16 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:13:16 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:13:16 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:14:00 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:14:00 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:14:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:14:00 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:14:00 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:14:00 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:14:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:15:17 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:15:17 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:15:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:15:17 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:15:17 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:15:17 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:15:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:36:38 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:36:38 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:36:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:36:38 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:36:38 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:36:38 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:36:38 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 03:36:59 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 03:36:59 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 03:36:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 03:36:59 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 03:36:59 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:36:59 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 03:36:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[16-Oct-2015 04:09:21 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[16-Oct-2015 04:09:21 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Oct-2015 04:09:21 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Oct-2015 04:09:21 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[16-Oct-2015 04:09:21 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 04:09:21 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[16-Oct-2015 04:09:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[17-Oct-2015 12:42:27 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[17-Oct-2015 12:42:27 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[17-Oct-2015 12:42:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:34:22 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:34:22 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:34:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:34:22 UTC] PHP Parse error:  syntax error, unexpected '".txt"' (T_CONSTANT_ENCAPSED_STRING) in /home/idmsaweb/public_html/idmsa.apple.com/send/action.php on line 27
+[19-Oct-2015 23:34:57 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:34:57 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:34:57 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:35:07 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:35:07 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:35:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:35:07 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[19-Oct-2015 23:35:07 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[19-Oct-2015 23:35:07 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[19-Oct-2015 23:35:07 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39
+[19-Oct-2015 23:35:12 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:35:12 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:35:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:36:10 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:10 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:10 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:36:10 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:10 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:10 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:36:14 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:14 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:14 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:36:17 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:17 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:36:20 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:20 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:36:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:41:31 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:41:31 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:41:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:41:34 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:41:34 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:41:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:41:35 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:41:35 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:41:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:41:39 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[19-Oct-2015 23:41:39 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[19-Oct-2015 23:41:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[19-Oct-2015 23:41:39 UTC] PHP Warning:  fopen(image.jpg): failed to open stream: No such file or directory in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 33
+[19-Oct-2015 23:41:39 UTC] PHP Warning:  filesize(): stat failed for image.jpg in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[19-Oct-2015 23:41:39 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 35
+[19-Oct-2015 23:41:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/idmsaweb/public_html/idmsa.apple.com/send/mailer.php on line 39

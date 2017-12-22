@@ -1,0 +1,6 @@
+[17-Sep-2015 10:57:07 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[17-Sep-2015 10:57:07 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[17-Sep-2015 10:57:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[17-Sep-2015 10:57:15 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[17-Sep-2015 10:57:15 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[17-Sep-2015 10:57:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0

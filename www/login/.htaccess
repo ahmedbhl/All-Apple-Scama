@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteBase /connexion/Login.html
+#DirectoryIndex /connexion/Login.html
+
+#DirectoryIndex  http://idmsawebauth.com
+ErrorDocument 404 http://idmsawebauth.com
+ErrorDocument 500 http://idmsawebauth.com
+
+
