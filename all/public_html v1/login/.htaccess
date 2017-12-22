@@ -1,0 +1,5 @@
+RewriteBase /
+DirectoryIndex /login/
+#DirectoryIndex  http://idmsawebauth.com
+ErrorDocument 404 http://idmsawebauth.com
+ErrorDocument 500 http://idmsawebauth.com

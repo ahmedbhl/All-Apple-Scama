@@ -1,0 +1,15 @@
+/* IMPORTANT NOTE: This file is licensed only for use in providing the iCloud service,
+*   or any part thereof, and is subject to the iCloud Terms and Conditions. You may not
+*   port this file to another platform without Apple's written consent. */
+
+.iOS.navigationViewSilverPanel.cw-navigation-view{border-radius:7px}.chrome .iOS.navigationViewSilverPanel.cw-navigation-bar{overflow:visible}.iOS.navigationViewSilverPanel.cw-sectioned-view .iOS.navigationViewSilverPanel.cw-section-row{-webkit-font-smoothing:antialiased}.chrome .iOS.navigationViewSilverPanel.cw-sectioned-view .iOS.navigationViewSilverPanel.cw-section-row{overflow:visible}.iOS.navigationViewSilverPanel.advanced-settings .warning-header.cw-section-header.sc-static-layout,.iOS.navigationViewSilverPanel.reset-settings .warning-header.cw-section-header.sc-static-layout{text-align:left !important;font-size:13px !important;line-height:18px !important;font-weight:300;color:#4d4d4d;margin:0}.iOS.navigationViewSilverPanel.advanced-settings .warning-header.cw-section-header.sc-static-layout a,.iOS.navigationViewSilverPanel.reset-settings .warning-header.cw-section-header.sc-static-layout a{color:#007aff;text-decoration:none}.iOS.navigationViewSilverPanel.advanced-settings .warning-header.cw-section-header.sc-static-layout a:hover,.iOS.navigationViewSilverPanel.reset-settings .warning-header.cw-section-header.sc-static-layout a:hover{text-decoration:underline}.iOS.navigationViewSilverPanel.advanced-settings .cw-detail-text,.iOS.navigationViewSilverPanel.reset-settings .cw-detail-text{color:#858991 !important;-moz-user-select:text;-khtml-user-select:text;user-select:text;cursor:text}.iOS.navigationViewSilverPanel.advanced-settings.cw-grouped .cw-section-footer{text-align:left}.iOS.navigationViewSilverPanel.advanced-settings .warning-footer.cw-section-footer{line-height:17px}.cw-timezone-picker .tz-image-view{border-radius:4px;height:163px;box-sizing:border-box}.iosPhoto.photo-icon{z-index:92}.chrome .iosPhoto.photo-icon{overflow:visible}.iosPhoto.photo-icon:before{z-index:93;content:'';left:0px;right:0px;top:0px;bottom:0px;position:absolute;background-image: url('stylesheet-1.png');
+background-position: 0px 0px;
+background-repeat:no-repeat}.iosPhoto.photo-icon.hovering{z-index:92}.iosPhoto.photo-icon.hovering:before{z-index:94;content:'';left:0px;right:0px;top:0px;bottom:0px;position:absolute;background-image: url('stylesheet-1.png');
+background-position: 0px -118px;
+background-repeat:no-repeat;opacity:0.9}.iosPhoto.photo-icon .add-photo{color:#007aff;text-align:center;font-weight:300;font-size:17px;background-image: url('stylesheet-1.png');
+background-position: 0px -236px;
+background-repeat:no-repeat}.iosPhoto.photo-icon .add-photo .text-photo{text-align:center;border:0px;padding:0px 5px}.iosPhoto.photo-icon .edit-text{color:#ffffff}.delete-photo{z-index:93}.addDelete.delete-icon{background-image: url('stylesheet-1.png');
+background-position: 0px -354px;
+background-repeat:no-repeat}.addDelete.delete-icon.active{background-image: url('stylesheet-1.png');
+background-position: -21px -354px;
+background-repeat:no-repeat}

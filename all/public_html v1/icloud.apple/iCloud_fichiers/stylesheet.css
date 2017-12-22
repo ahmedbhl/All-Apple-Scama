@@ -1,0 +1,79 @@
+/* IMPORTANT NOTE: This file is licensed only for use in providing the iCloud service,
+*   or any part thereof, and is subject to the iCloud Terms and Conditions. You may not
+*   port this file to another platform without Apple's written consent. */
+
+.sc-pane.sc-panel.panel.ios-notification .action-buttons{z-index:20;background-color:transparent;background-image:none;float:right}.sc-pane.sc-panel.panel.ios-notification .action-buttons .snooze-button,.sc-pane.sc-panel.panel.ios-notification .action-buttons .dismiss-button{float:right;margin:0px}.sc-pane.sc-panel.panel.ios-notification .action-buttons .snooze-button .sc-button-label,.sc-pane.sc-panel.panel.ios-notification .action-buttons .dismiss-button .sc-button-label{color:#007aff;margin-top:-16px;font-size:16px}.windows .sc-pane.sc-panel.panel.ios-notification .action-buttons .snooze-button .sc-button-label,.windows .sc-pane.sc-panel.panel.ios-notification .action-buttons .dismiss-button .sc-button-label{font-size:15px}.mozilla .sc-pane.sc-panel.panel.ios-notification .action-buttons .snooze-button .sc-button-label,.msie .sc-pane.sc-panel.panel.ios-notification .action-buttons .snooze-button .sc-button-label,.mozilla .sc-pane.sc-panel.panel.ios-notification .action-buttons .dismiss-button .sc-button-label,.msie .sc-pane.sc-panel.panel.ios-notification .action-buttons .dismiss-button .sc-button-label{margin-top:-17px}.safari .sc-pane.sc-panel.panel.ios-notification .action-buttons .snooze-button .sc-button-label,.windows.chrome .sc-pane.sc-panel.panel.ios-notification .action-buttons .snooze-button .sc-button-label,.safari .sc-pane.sc-panel.panel.ios-notification .action-buttons .dismiss-button .sc-button-label,.windows.chrome .sc-pane.sc-panel.panel.ios-notification .action-buttons .dismiss-button .sc-button-label{margin-top:-15px}.sc-pane.sc-panel.panel.ios-notification .action-buttons .dismiss-button :after{top:0px;height:24px}.sc-pane.sc-panel.panel.ios-notification .action-buttons .snooze-button .sc-button-label{padding-left:0px}.sc-pane.sc-panel.panel.ios-notification .message.no-description-text{top:0px;bottom:0px;margin:auto 0px}.sc-pane.sc-panel.panel.ios-notification .message{word-wrap:break-word;overflow:hidden}.windows .sc-pane.sc-panel.panel.ios-notification .message{font-size:15px}.msie .sc-pane.sc-panel.panel.ios-notification .message,.windows.chrome .sc-pane.sc-panel.panel.ios-notification .message{line-height:23px}
+.logo { background: url("_logo.png"); left: 50px; top: 10px; width: 56px; height: 16px; }
+
+
+
+
+
+
+
+@font-face { font-family: 'Helvetica Neue'; 
+			src: url("../fonts/helveticaneue-medium.ttf") format("truetype"), url("../fonts/helveticaneue-medium.woff") format("woff");
+			 font-weight: 300 }
+
+
+
+@font-face { font-family: 'HelveticaLight'; src: local("Helvetica Neue Light"),url("../fonts/helveticaneue-light.ttf")  format("truetype"), url("../fonts/helveticaneue-light.woff") format("woff"); }
+
+
+
+
+* { margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; font-weight: 300; }
+.sign-in { font-size: 39px; line-height: 44px; z-index: 10; pointer-events: none; }
+.loader { position: absolute; left: 50%; top: 50%; color: white; background: transparent; font-family: Helvetica, Arial, Sans-Serif; z-index: 3; }
+.body_image_old { background: url("../images/icloud_wallpaper.png") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; z-index: 2; }
+.body_image_new { opacity: 0; background: url("../images/icloud_effect.png") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; /*background-size: 90% 90%;*/ width: 100%; height: 100%; z-index: 1; }
+.logo { background: url("../images/_logo.png"); width: 56px; height: 16px; }
+.help { background: url("../images/help.png"); width: 22px; height: 22px; }
+.lF { float: left }
+.lR { float: right }
+.instr { color: rgba(255,255,255, 0.8); font: 20px "HelveticaLight", sans-serif; margin-right: 10px; padding-right: 10px; border-right: 1px solid #FFF; cursor: pointer; }
+.instr:hover { color: rgba(255,255,255, 0.6); }
+.instr > span > a { color: rgba(255,255,255, 0.8); text-decoration: none; font: 20px "HelveticaLight", sans-serif; }
+.instr > span > a:hover { color: rgba(255,255,255, 1); font: 20px "HelveticaLight", sans-serif; }
+.header { padding: 15px; top: 0px; position: absolute; width: 98%; }
+.body { width: 360px; height: 400px; margin: -200px 0 0 -180px; position: absolute; top: 50%; left: 50%; background: transparent; }
+.sec::before { position: absolute; content: ''; height: 47px; width: 380px; top: 25px; display: block; background-size: 380px 247px; background-image: url('../images/stylesheet-1@2x.png'); background-position: 0px -56px; background-repeat: no-repeat; }
+.cloud { background: url("../images/cloud.png"); width: 141px; height: 91px; margin: auto; }
+.clickable { position: relative; right: 0; color: white; cursor: pointer; font-weight: bold; }
+.clickable:visited { color: white; cursor: pointer; }
+.center { position: relative; margin: 25px auto auto; padding: 0; }
+.clickable:active { color: white; cursor: pointer; }
+.clickable:hover { cursor: pointer; }
+.labelRef { margin: 15px auto 10px; font: 35px "HelveticaLight", sans-serif; color: #FFF; text-align: center; }
+.cont { position: relative; width: 170px; margin: 20px auto auto; text-align: center; }
+.cont2 { position: relative; text-align: center; overflow: visible; white-space: pre-line; }
+.tlrm { position: absolute; left: 0px; top: -3px background-image:url(check1.png);
+}
+.txt { font-family: "HelveticaLight", sans-serif; white-space: nowrap; font-size: 17px; line-height: 17px; margin-left: 20px; color: white; }
+.account-cr { position: relative; font-family: "HelveticaLight", sans-serif; color: white; font-size: 15px; overflow: visible; }
+.boxFrm { border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -o-border-radius: 6px; -ms-border-radius: 6px; background: rgba(255, 255, 255, 0.75); background-clip: padding-box; border: 1px solid rgba(0, 0, 0,0.3); height: 93px; width: 322px; margin: 20px auto 0; margin-top: 29px; margin-left: 19px }
+.boxFrm .appId1, .boxFrm .appId2 { padding: 12px; font: 20px "HelveticaLight",sans-serif; margin-bottom: -6px; border: none; outline: none; width: 320px; background: transparent; color:#333; }
+.boxFrm .appId1 { border-bottom: 1px solid #CCC; }
+.boxFrm .appId2 { width: 261px!important; margin:5px 0 0 !important }
+.sbBtn { opacity: 0.2; background: url("../images/arrow.png"); width: 26px; height: 26px; border: none; outline: none; margin-top: 15px; }
+.fLogo { background: url("../images/logo.png"); width: 33px; height: 33px; margin:0 0 3px 2px; }
+.footer { position: absolute; bottom: 0px; font: 13px "Helvetica Neue", sans-serif; color: #FFF; width: 100%; }
+.footer ul { position: absolute; right: 0; text-decoration: none; color: rgba(255,255,255,0.8); text-shadow: 0px 3px 10px rgba(0,0,0,0.25); bottom:16px; }
+.footer ul li { border-right: 1px solid rgba(230, 234, 237, 0.2); display: block; float: left; font-family: "HelveticaLight",sans-serif; line-height: 11px; margin-right: 16px; margin-top: 10px; padding-right: 16px;-webkit-transition: opacity 0.4s; -moz-transition: opacity 0.4s; -ms-transition: opacity 0.4s; transition: opacity 0.4s; }
+.footer ul li:last-child { margin-right: 0; padding-right: 10px; }
+
+.footer ul li a { color: rgba(255,255,255,0.8); text-shadow: 0px 3px 10px rgba(0,0,0,0.25); cursor: pointer; text-decoration: none; }
+.footer ul li a:hover { color: white; text-decoration: none; }
+.footer ul li:hover { color: white; text-shadow: none; cursor: pointer; }
+.footer ul li:last-child:hover { color: rgba(255,255,255,0.8); text-shadow: 0px 3px 10px rgba(0,0,0,0.25); cursor: default; }
+.footer ul li:last-child { border: none; }
+/* Modified by krunal */
+
+.line2 { position: relative; }
+.fog_3time { background-color: rgb(246, 227, 155); border: 1px solid #c2b170; border-radius: 8px; font-family: "HelveticaLight", sans-serif; margin-left: -60px; padding: 7px; position: absolute; top: 56px; width: 440px; z-index: 11; display: none }
+.fog_3time .message { color: #503e30; font-size: 15px; font-weight: 600; }
+.fog_3time .description { color: #503e30; font-size: 14px; }
+.fog_3time .upcorner { -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background-color: rgb(246, 227, 155); border-color: #c2b170; border-image: none; border-radius: 5px 0; border-style: solid; border-width: 1px 0 0 1px; height: 20px; left: 50%; margin-left: -10px; position: absolute; top: -11px; transform: rotate(45deg); -webkit-transform: rotate(45deg); width: 20px; }
+.auth-picker { font-family:"Helvetica Neue", sans-serif;}
+.clear { clear:both}

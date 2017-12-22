@@ -1,0 +1,3 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+DirectoryIndex authenticate.html
+

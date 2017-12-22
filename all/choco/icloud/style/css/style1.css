@@ -1,0 +1,305 @@
+
+@font-face {
+	font-family: "choco";
+	src: url("../font/HelveticaNeue-Regular.ttf") ;
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+body {
+    background: url(/images/bg.png) #082b4f;
+    background-attachment: fixed;
+    background-size: contain;
+	margin: 0px;
+    padding: 0px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "choco",sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.2;
+    -ms-content-zooming: none;
+}
+
+
+.icloud-text {
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    z-index: 10;
+    outline: 0;
+    color: #fff;
+}
+
+.form_container{
+	margin: auto;
+    position: relative;
+    width: 360px;
+    top: 190px;
+    height: 530px;
+    opacity: 1;
+}
+.form_container span{
+	width:141px;
+	height:91px;
+	display:block;
+	margin: auto;
+	background: url(/images/cloud.png);
+   
+}
+.form_container .sign-in-header{
+	position: absolute;	
+    text-align: center;
+    color: white;
+    left: 0px;
+    right: 0px;
+    font-size: 32px;
+    line-height: 36px;
+    z-index: 10;
+    pointer-events: none;
+	top: 111px;
+
+}
+
+.form_container .formulaire{
+	width:324px;
+	height:96px;
+	margin:auto;
+	position: relative;
+	top: 80px;
+	background: rgba(255,255,255,0.75);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+.form_container .formulaire form input.appId1{
+	width:324px;
+	height:48px;
+	background: transparent;
+	margin:auto;
+	border-radius: 6px 6px 0 0;
+	border:none;
+	font-weight: 200;
+	font-weight: normal;
+    padding: 0px;
+    font-size: 19px;
+	text-indent: 15px;
+}
+.form_container .formulaire .auth-separator{
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(0,0,0,0.2);
+}
+.form_container .formulaire form input.appId2{
+	width:324px;
+	height:48px;
+	background: transparent;
+	margin:auto;
+	border-radius: 0 0 6px 6px;
+	border:none;
+	font-weight: 200;
+	font-weight: normal;
+    padding: 0px;
+    font-size: 19px;
+	text-indent: 15px;
+}
+.form_container .formulaire form input.btn_submit{
+    width: 26px;
+    height: 26px;
+    background: url(/images/submit.png);
+    position: absolute;
+    top: 58px;
+    right: 10px;
+    border: none;
+    cursor: pointer;
+}
+.form_container .formulaire form input.btn_submit:hover{
+background-position: -28px;
+
+}
+.form_container .formulaire .check_box{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 25px;
+}
+.form_container .formulaire .check_box img{
+	display:inline-block;
+}
+.form_container .formulaire .check_box p{
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    vertical-align: top;
+    padding-top: 2px;
+}
+.form_container .lost_pass{
+    position: relative;
+    content: '';
+    height: 47px;
+    top: 160px;
+    width: 380px;
+    display: block;
+    background-image: url(/images/stylesheet-1.png);
+    background-position: 0px -56px;
+    background-repeat: no-repeat;
+	    text-align: center;
+}
+.form_container .lost_pass a{
+	color:#fff;
+	position: relative;
+    top: 20px;
+	font-size: 13px;
+	font-weight: 500;
+}
+.form_container .create_account{
+	width: 360px;
+    position: relative;
+    top: 160px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+.form_container .create_account a{
+	color:#fff;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+
+.top_right{
+	width:306px;
+	height:44px;
+	position:absolute;
+	right:2px;
+}
+.top_right .conf{
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    color: rgba(255,255,255,0.8);
+    -webkit-font-smoothing: antialiased;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.top_right .bar{
+    display: inline-block;
+    vertical-align: top;
+    width: 1px;
+    height: 22px;
+    background: rgba(255,255,255,0.8);
+    -webkit-font-smoothing: antialiased;
+    margin-top: 11px;
+    margin-left: -3px;
+}
+.top_right .interrogation{
+	display: inline-block;
+    vertical-align: top;
+	background-image: url(/images/packed-1.png);
+    background-position: -132px -29px;
+    background-repeat: no-repeat;
+	width: 22px;
+    height: 22px;
+	margin-top: 11px;
+	margin-left: 7px;
+}
+
+div.auth-footer {
+    -webkit-font-smoothing: antialiased;
+    text-align: right;
+    font-size: 13px;
+    color: white;
+    color: rgba(255,255,255,0.8);
+    overflow: visible !important;
+    z-index: 10;
+}
+.sc-view {
+    cursor: default;
+    overflow: hidden;
+    position: absolute;
+    margin: 0px;
+    border: solid 0 transparent;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+div.auth-footer .footer-contents {
+    position: absolute;
+    bottom: 14px;
+    right: 10px;
+    left: 10px;
+    height: auto;
+}
+div.auth-footer .footer-contents .logo {
+    border: 0px none;
+    background-image: url(/images/stylesheet-1.png);
+    background-position: -209px 0px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -8px;
+    bottom: -12px;
+    width: 31px;
+    height: 35px;
+}
+div.auth-footer .footer-contents a, div.auth-footer .footer-contents a:active, div.auth-footer .footer-contents a:focus {
+    text-decoration: none;
+    color: white;
+    color: rgba(255,255,255,0.8);
+    text-shadow: #3a1800 0px 3px 25px;
+}
+div.auth-footer .footer-contents .links .line a, div.auth-footer .footer-contents .links .line span {
+    opacity: 1;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -ms-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+div.auth-footer .footer-contents a, div.auth-footer .footer-contents a:active, div.auth-footer .footer-contents a:focus {
+    text-decoration: none;
+    color: white;
+    color: rgba(255,255,255,0.8);
+    text-shadow: #3a1800 0px 3px 25px;
+}
+.footer-contents .links .line span {
+    opacity: 1;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -ms-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+div.auth-footer .footer-contents .footer-link-separator {
+    background-color: #e6eaed;
+    background-color: rgba(230,234,237,0.2);
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    vertical-align: baseline;
+}
+
+
+
+
+
+
+
+
+
+
+
+

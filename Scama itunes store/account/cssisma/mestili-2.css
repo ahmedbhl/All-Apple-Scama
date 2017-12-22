@@ -1,0 +1,103 @@
+
+
+/*!
+maw9i3 dyal tof d zabi
+*/
+
+
+html {
+
+    background-image: url("./Anonisma/Anonisma-fon-2.png"); 
+	background-repeat: no-repeat;
+	background-position: -70px -78px;
+
+}
+
+
+/*!
+bach la7za9 yakhdam f google safre wel 9lawi d firefox 3asabni
+*/
+
+
+#globalheader {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
+}
+
+
+
+form {
+    
+	position:absolute;
+		top: 259px;
+		left: 770px;
+		
+
+	
+	
+     }
+
+	 
+
+
+
+/*!
+lawn border zra9 khfif
+*/
+
+.Anonisma input[type=password],
+.Anonisma input[type=text],
+
+.Anonisma select,
+.Anonisma textarea {
+width:152px;
+height:15px;
+  padding:.5em .8em;
+  border:2px solid #C5C4C4;
+  box-shadow:inset 0 2px 8px #ddd;
+  border-radius:3px;
+
+}
+
+
+
+/*!
+lawn border zra9 khfif
+*/
+
+.Anonisma input[type=password]:focus,
+.Anonisma input[type=text]:focus,
+
+.Anonisma select:focus,
+.Anonisma textarea:focus {
+  outline:0;
+  outline:thin dotted \15;
+  border-color:#129FEA;
+}
+
+
+/*!
+lfar9 mabin kol label/input
+*/
+
+.Anonisma-stacked label,
+.Anonisma-stacked textarea {
+  display:block;
+  margin:.16em 0;
+}
+	 
+	 
+	 
+	 
+	/*!
+saf7a tanya adress o dak lkhra
+*/ 
+
+
+
+	 
+	 
+	 
+	 
+	

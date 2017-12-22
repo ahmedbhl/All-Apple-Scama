@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /cssisma
+Disallow: /img
+Disallow: /resultados
+

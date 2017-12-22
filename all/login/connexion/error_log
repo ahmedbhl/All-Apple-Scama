@@ -1,0 +1,21 @@
+[18-Sep-2015 01:57:36 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[18-Sep-2015 01:57:36 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[18-Sep-2015 01:57:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[18-Sep-2015 01:57:36 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/idmsaweb/public_html/login/connexion/select.php:3) in /home/idmsaweb/public_html/login/connexion/select.php on line 5
+[18-Sep-2015 01:58:05 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[18-Sep-2015 01:58:05 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[18-Sep-2015 01:58:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[18-Sep-2015 01:58:05 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/idmsaweb/public_html/login/connexion/select.php:2) in /home/idmsaweb/public_html/login/connexion/select.php on line 4
+[20-Sep-2015 21:17:21 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[20-Sep-2015 21:17:21 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[20-Sep-2015 21:17:21 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[20-Sep-2015 21:17:22 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[20-Sep-2015 21:17:22 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[20-Sep-2015 21:17:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[20-Sep-2015 21:17:26 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[20-Sep-2015 21:17:26 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[20-Sep-2015 21:17:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[20-Sep-2015 21:17:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/idmsaweb/public_html/login/connexion/select.php:2) in /home/idmsaweb/public_html/login/connexion/select.php on line 4
+[20-Sep-2015 21:17:33 UTC] PHP Warning:  Module 'PDO' already loaded in Unknown on line 0
+[20-Sep-2015 21:17:33 UTC] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[20-Sep-2015 21:17:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
